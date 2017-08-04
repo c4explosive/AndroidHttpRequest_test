@@ -10,6 +10,7 @@
 #include <QDebug>
 #include <QString>
 #include <QJsonDocument>
+#include <QEventLoop>
 
 namespace Ui {
 class MainWindow;
@@ -25,7 +26,6 @@ public:
 private slots:
 
     void on_btn_POST_clicked();
-    QString finished(QNetworkReply*);
 
     void on_btn_GET_clicked();
 
